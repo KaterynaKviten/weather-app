@@ -88,3 +88,14 @@
 .chColorF {
   color: rgb(159, 158, 158);
 }
+#my-code-link {
+  font-size: 14px;
+  font-family: monospace;
+  padding-top: 20px;
+  text-decoration: none;
+  color: rgba(72, 71, 71, 0.806);
+}
+#my-code-link:hover {
+  color: rgb(128, 0, 126);
+  cursor: pointer;
+}
