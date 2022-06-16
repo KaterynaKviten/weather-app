@@ -1,0 +1,90 @@
+.container {
+  display: grid;
+  grid-template-rows: 33% 33% 34%;
+  height: 100%;
+  grid-template-columns: 33% 33% 34%;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 30px;
+}
+
+.item-row-1-col-1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+}
+.item-row-1-col-2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  padding-top: 10px;
+  width: 500px;
+}
+.item-row-2-col-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: -webkit-box;
+  padding-top: 115px;
+  padding-bottom: 100px;
+}
+.item-2-col-2-right-sidePic {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  display: block;
+  padding-bottom: 25px;
+}
+.item-row-3-col-3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  text-align: center;
+}
+.city,
+.temperatureMax {
+  font-size: 46px;
+  height: 60px;
+}
+.dayMonth {
+  font-size: 22px;
+  padding-top: 12px;
+  color: rgba(72, 71, 71, 0.806);
+}
+.localTime,
+.temperatureMin {
+  font-size: 22px;
+  color: rgba(72, 71, 71, 0.806);
+}
+.other,
+.sun {
+  font-size: 12px;
+  padding-bottom: 25px;
+}
+.btn-outline-warning {
+  margin-top: 10px;
+  color: rgb(218, 144, 8);
+}
+.unit {
+  font-size: 22px;
+}
+#celciy {
+  text-decoration: none;
+}
+#celciy:hover {
+  color: green;
+  cursor: pointer;
+}
+.chColorC {
+  font-weight: bold;
+}
+#faringeit {
+  text-decoration: none;
+}
+#faringeit:hover {
+  color: green;
+  cursor: pointer;
+}
+.chColorF {
+  color: rgb(159, 158, 158);
+}
